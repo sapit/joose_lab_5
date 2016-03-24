@@ -10,13 +10,13 @@ import org.junit.Test;
 
 import uk.ac.glasgow.jagora.BuyOrder;
 import uk.ac.glasgow.jagora.SellOrder;
-import uk.ac.glasgow.jagora.StockExchange;
 import uk.ac.glasgow.jagora.Trader;
+import uk.ac.glasgow.jagora.impl.DefaultStockExchange;
 
 @Ignore
 public abstract class StockExchangeAndTraderTest {
 
-	protected StockExchange stockExchange;
+	protected DefaultStockExchange stockExchange;
 
 	protected BuyOrder badBuyOrder;
 	protected SellOrder badSellOrder;

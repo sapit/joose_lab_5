@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="jagora-test" project="jagora-test" tests="87" started="87" failures="0" errors="0" ignored="0">
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultStockTest" time="0.0">
+    <testcase name="testGetName" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest" incomplete="true">
+    <testsuite name="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true">
+      <testcase name="testGetBestOffer" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testGetStock" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testCancelSellOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testDoClearing" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testGetBestBid" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testCancelBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testPlaceSellOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testPlaceBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.004">
+    <testcase name="testGetBestOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.002"/>
+    <testcase name="testRecordOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.0"/>
+    <testcase name="testGetOrdersAsList" classname="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.0"/>
+    <testcase name="testEmptyInitialOrderBook" classname="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.001"/>
+    <testcase name="testCancelOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.01">
+    <testcase name="testGetPrice" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.002"/>
+    <testcase name="testCompareTo" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.005"/>
+    <testcase name="testTraderDeducted" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testTraderRolledBack" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.001"/>
+    <testcase name="testRollBackTrade" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testNotEqualsOrder" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testIsEquals" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testDifferentOrdersSamePrice" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testNotEqualsDifferentTypes" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.001"/>
+    <testcase name="testSatisfyTrade" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testNotEqualsNull" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testNullPriceEquals" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.003">
+    <testcase name="testGetPrice" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testCompareTo" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testTraderCredited" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testTraderRolledBack" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testRollBackTrade" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testNotEqualsOrder" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testIsEquals" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testDifferentOrdersSamePrice" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.001"/>
+    <testcase name="testNotEqualsDifferentTypes" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testSatisfyTrade" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testNotEqualsNull" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testNullPriceEquals" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.073">
+    <testcase name="testGetBestOffer" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.001"/>
+    <testcase name="testGetStock" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.0"/>
+    <testcase name="testCancelSellOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.0"/>
+    <testcase name="testDoClearing" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.002"/>
+    <testcase name="testGetBestBid" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.001"/>
+    <testcase name="testCancelBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.0"/>
+    <testcase name="testPlaceSellOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.003"/>
+    <testcase name="testPlaceBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.002"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultWorldTest" time="0.002">
+    <testcase name="test" classname="uk.ac.glasgow.jagora.test.impl.DefaultWorldTest" time="0.002"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.008">
+    <testcase name="testBadBuyStockAtLimit" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.0"/>
+    <testcase name="testSellStock" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.001"/>
+    <testcase name="testGetCash" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.001"/>
+    <testcase name="testGetName" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.0"/>
+    <testcase name="testBuyStock" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.001"/>
+    <testcase name="testGetInventoryHolding" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.0"/>
+    <testcase name="testBadBuyStock" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.0"/>
+    <testcase name="testBadSellStock" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.001"/>
+    <testcase name="testGetTradingStocks" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.004"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.011">
+    <testcase name="testGetBestOffer" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.002"/>
+    <testcase name="testCancelSellOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.001"/>
+    <testcase name="testDoClearing" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.0"/>
+    <testcase name="testGetBestBid" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.001"/>
+    <testcase name="testCancelBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.0"/>
+    <testcase name="testPlaceSellOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.001"/>
+    <testcase name="testGetTradeHistory" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.006"/>
+    <testcase name="testPlaceBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.008">
+    <testcase name="testSpeak" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.006"/>
+    <testcase name="testBadBuyStockAtLimit" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testSellStock" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testGetCash" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testGetName" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testBuyStock" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.001"/>
+    <testcase name="testGetInventoryHolding" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testBadBuyStock" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testBadSellStock" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testGetTradingStocks" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.0">
+    <testcase name="testGetEvent" classname="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.0"/>
+    <testcase name="testCompareToEquals" classname="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.0"/>
+    <testcase name="testGetTick" classname="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.0"/>
+    <testcase name="testCompareToLessThan" classname="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.0"/>
+    <testcase name="testCompareToGreaterThan" classname="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeAndTraderTest" time="0.003">
+    <testcase name="testBadBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeAndTraderTest" time="0.002"/>
+    <testcase name="testBadSellOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeAndTraderTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.003">
+    <testcase name="testGetPrice" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.0"/>
+    <testcase name="testGetStock" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.0"/>
+    <testcase name="testExecuteFillsBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.001"/>
+    <testcase name="testExecuteFillsSellOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.0"/>
+    <testcase name="testGetQuantity" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.0"/>
+    <testcase name="testExecuteCreatesTick" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.002"/>
+  </testsuite>
+</testrun>

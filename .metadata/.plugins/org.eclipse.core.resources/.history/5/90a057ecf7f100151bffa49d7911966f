@@ -1,0 +1,24 @@
+package uk.ac.glasgow.jagora.impl;
+
+import java.util.List;
+
+import uk.ac.glasgow.jagora.Stock;
+import uk.ac.glasgow.jagora.TickEvent;
+import uk.ac.glasgow.jagora.Trade;
+import uk.ac.glasgow.jagora.World;
+
+public class StockExchangeDecorator extends DefaultStockExchange {
+
+	public StockExchangeDecorator(World world) {
+		super(world);
+	}
+
+	public void doClearing(){
+		super.doClearing();
+	}
+	
+	public List<TickEvent<Trade>> getTradeHistory(Stock stock) {
+		return super.getTradeHistory(stock);
+	}
+
+}

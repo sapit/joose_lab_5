@@ -27,6 +27,6 @@ public class DefaultTrader extends AbstractTrader {
 
 	@Override
 	public void speak(StockExchange stockExchange) {
-		//Does nothing.
+		//Do nothing!!!
 	}
 }

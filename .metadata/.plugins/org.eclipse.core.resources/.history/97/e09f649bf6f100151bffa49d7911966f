@@ -1,0 +1,17 @@
+package uk.ac.glasgow.jagora.impl;
+
+import uk.ac.glasgow.jagora.World;
+
+public class StockExchangeDecorator extends DefaultStockExchange {
+
+	public StockExchangeDecorator(World world) {
+		super(world);
+	}
+
+	public void doClearing(){
+		super.doClearing();
+	}
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package uk.ac.glasgow.jagora.impl;
+
+import uk.ac.glasgow.jagora.World;
+
+public class StockExchangeDecorator extends DefaultStockExchange {
+
+	protected StockExchangeDecorator(World world) {
+		super(world);
+	}
+	
+	
+
+}

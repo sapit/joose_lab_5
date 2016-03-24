@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="jagora-test" project="jagora-test" tests="87" started="87" failures="0" errors="4" ignored="0">
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultStockTest" time="0.0">
+    <testcase name="testGetName" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest" incomplete="true">
+    <testsuite name="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true">
+      <testcase name="testGetBestOffer" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testGetStock" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testCancelSellOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testDoClearing" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testGetBestBid" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testCancelBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testPlaceSellOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+      <testcase name="testPlaceBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.003">
+    <testcase name="testGetBestOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.001"/>
+    <testcase name="testRecordOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.001"/>
+    <testcase name="testGetOrdersAsList" classname="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.0"/>
+    <testcase name="testEmptyInitialOrderBook" classname="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.0"/>
+    <testcase name="testCancelOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultOrderBookTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.013">
+    <testcase name="testGetPrice" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.006"/>
+    <testcase name="testCompareTo" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.004"/>
+    <testcase name="testTraderDeducted" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.001"/>
+    <testcase name="testTraderRolledBack" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testRollBackTrade" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testNotEqualsOrder" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testIsEquals" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testDifferentOrdersSamePrice" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.001"/>
+    <testcase name="testNotEqualsDifferentTypes" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testSatisfyTrade" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testNotEqualsNull" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.0"/>
+    <testcase name="testNullPriceEquals" classname="uk.ac.glasgow.jagora.test.impl.LimitSellOrderTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.002">
+    <testcase name="testGetPrice" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testCompareTo" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testTraderCredited" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testTraderRolledBack" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.001"/>
+    <testcase name="testRollBackTrade" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testNotEqualsOrder" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testIsEquals" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testDifferentOrdersSamePrice" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testNotEqualsDifferentTypes" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testSatisfyTrade" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testNotEqualsNull" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.0"/>
+    <testcase name="testNullPriceEquals" classname="uk.ac.glasgow.jagora.test.impl.LimitBuyOrderTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.076">
+    <testcase name="testGetBestOffer" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.0"/>
+    <testcase name="testGetStock" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.0"/>
+    <testcase name="testCancelSellOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.001"/>
+    <testcase name="testDoClearing" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.001"/>
+    <testcase name="testGetBestBid" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.001"/>
+    <testcase name="testCancelBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.0"/>
+    <testcase name="testPlaceSellOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.001"/>
+    <testcase name="testPlaceBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.ContinuousOrderDrivenMarketTest.TestAsMarket" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultWorldTest" time="0.001">
+    <testcase name="test" classname="uk.ac.glasgow.jagora.test.impl.DefaultWorldTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.003">
+    <testcase name="testBadBuyStockAtLimit" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.001"/>
+    <testcase name="testSellStock" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.0"/>
+    <testcase name="testGetCash" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.0"/>
+    <testcase name="testGetName" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.0"/>
+    <testcase name="testBuyStock" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.0"/>
+    <testcase name="testGetInventoryHolding" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.001"/>
+    <testcase name="testBadBuyStock" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.0"/>
+    <testcase name="testBadSellStock" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.0"/>
+    <testcase name="testGetTradingStocks" classname="uk.ac.glasgow.jagora.test.impl.DefaultTraderTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.007">
+    <testcase name="testGetBestOffer" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.001"/>
+    <testcase name="testCancelSellOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.0"/>
+    <testcase name="testDoClearing" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.004">
+      <error>java.lang.NullPointerException&#13;
+	at uk.ac.glasgow.jagora.impl.DefaultStockExchange.doClearing(DefaultStockExchange.java:30)&#13;
+	at uk.ac.glasgow.jagora.test.StockExchangeTest.placeStandardOrdersAndClear(StockExchangeTest.java:120)&#13;
+	at uk.ac.glasgow.jagora.test.StockExchangeTest.testDoClearing(StockExchangeTest.java:40)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testGetBestBid" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.001"/>
+    <testcase name="testCancelBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.0"/>
+    <testcase name="testPlaceSellOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.0"/>
+    <testcase name="testGetTradeHistory" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at uk.ac.glasgow.jagora.impl.DefaultStockExchange.doClearing(DefaultStockExchange.java:30)&#13;
+	at uk.ac.glasgow.jagora.test.StockExchangeTest.placeStandardOrdersAndClear(StockExchangeTest.java:120)&#13;
+	at uk.ac.glasgow.jagora.test.StockExchangeTest.testGetTradeHistory(StockExchangeTest.java:105)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testPlaceBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.011">
+    <testcase name="testSpeak" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.009"/>
+    <testcase name="testBadBuyStockAtLimit" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testSellStock" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testGetCash" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testGetName" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.001"/>
+    <testcase name="testBuyStock" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testGetInventoryHolding" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testBadBuyStock" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testBadSellStock" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.0"/>
+    <testcase name="testGetTradingStocks" classname="uk.ac.glasgow.jagora.test.impl.RandomTraderTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.001">
+    <testcase name="testGetEvent" classname="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.0"/>
+    <testcase name="testCompareToEquals" classname="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.0"/>
+    <testcase name="testGetTick" classname="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.0"/>
+    <testcase name="testCompareToLessThan" classname="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.001"/>
+    <testcase name="testCompareToGreaterThan" classname="uk.ac.glasgow.jagora.test.impl.DefaultTickEventTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeAndTraderTest" time="0.001">
+    <testcase name="testBadBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeAndTraderTest" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at uk.ac.glasgow.jagora.impl.DefaultStockExchange.doClearing(DefaultStockExchange.java:30)&#13;
+	at uk.ac.glasgow.jagora.test.StockExchangeAndTraderTest.testBadBuyOrder(StockExchangeAndTraderTest.java:38)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testBadSellOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultStockExchangeAndTraderTest" time="0.0">
+      <error>java.lang.NullPointerException&#13;
+	at uk.ac.glasgow.jagora.impl.DefaultStockExchange.doClearing(DefaultStockExchange.java:30)&#13;
+	at uk.ac.glasgow.jagora.test.StockExchangeAndTraderTest.testBadSellOrder(StockExchangeAndTraderTest.java:48)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+  <testsuite name="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.001">
+    <testcase name="testGetPrice" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.0"/>
+    <testcase name="testGetStock" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.0"/>
+    <testcase name="testExecuteFillsBuyOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.0"/>
+    <testcase name="testExecuteFillsSellOrder" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.001"/>
+    <testcase name="testGetQuantity" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.0"/>
+    <testcase name="testExecuteCreatesTick" classname="uk.ac.glasgow.jagora.test.impl.DefaultTradeTest" time="0.0"/>
+  </testsuite>
+</testrun>

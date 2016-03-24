@@ -1,0 +1,62 @@
+package uk.ac.glasgow.jagora.impl;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import uk.ac.glasgow.jagora.BuyOrder;
+import uk.ac.glasgow.jagora.Market;
+import uk.ac.glasgow.jagora.SellOrder;
+import uk.ac.glasgow.jagora.Stock;
+import uk.ac.glasgow.jagora.StockExchange;
+import uk.ac.glasgow.jagora.TickEvent;
+import uk.ac.glasgow.jagora.Trade;
+import uk.ac.glasgow.jagora.World;
+
+public class StockExchangeDecorator implements StockExchange {
+	
+	private final Map<Stock,Market> markets;
+	private World world;
+	private final List<TickEvent<Trade>> tradeHistory;
+	
+	public StockExchangeDecorator(World world){
+		this.world = world;
+		markets = new HashMap<Stock,Market>();
+		tradeHistory = new ArrayList<TickEvent<Trade>>();
+	}
+
+	public void placeBuyOrder(BuyOrder buyOrder) {
+		getMarket(buyOrder.getStock()).placeBuyOrder(buyOrder);
+	}
+
+	public void placeSellOrder(SellOrder sellOrder) {
+		getMarket(sellOrder.getStock()).placeSellOrder(sellOrder);
+	}
+
+	public void cancelBuyOrder(BuyOrder buyOrder) {
+		getMarket(buyOrder.getStock()).cancelBuyOrder(buyOrder);
+	}
+
+	public void cancelSellOrder(SellOrder sellOrder) {
+		getMarket(sellOrder.getStock()).cancelSellOrder(sellOrder);
+	}
+	
+	public Double getBestOffer(Stock stock) {
+		return getMarket(stock).getBestOffer();
+	}
+
+	public Double getBestBid(Stock stock) {
+		return getMarket(stock).getBestBid();
+	}
+	
+	private Market getMarket(Stock stock) {
+		Market market = markets.get(stock);
+		if (market == null){
+			market = new ContinuousOrderDrivenMarket(stock, world);
+			markets.put(stock, market);
+		}
+		return market;
+	}
+
+}

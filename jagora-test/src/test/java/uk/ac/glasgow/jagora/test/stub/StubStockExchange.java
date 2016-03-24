@@ -7,10 +7,11 @@ import uk.ac.glasgow.jagora.BuyOrder;
 import uk.ac.glasgow.jagora.SellOrder;
 import uk.ac.glasgow.jagora.Stock;
 import uk.ac.glasgow.jagora.StockExchange;
+import uk.ac.glasgow.jagora.StockExchangeRestricted;
 import uk.ac.glasgow.jagora.TickEvent;
 import uk.ac.glasgow.jagora.Trade;
 
-public class StubStockExchange implements StockExchange {
+public class StubStockExchange implements StockExchange,StockExchangeRestricted {
 
 	public final List<BuyOrder> buyOrders = new ArrayList<BuyOrder>();
 	public final List<SellOrder> sellOrders = new ArrayList<SellOrder>();

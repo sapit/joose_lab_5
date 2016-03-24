@@ -21,10 +21,11 @@ import uk.ac.glasgow.jagora.impl.DefaultWorld;
 import uk.ac.glasgow.jagora.impl.LimitBuyOrder;
 import uk.ac.glasgow.jagora.impl.LimitSellOrder;
 import uk.ac.glasgow.jagora.impl.RandomTrader;
+import uk.ac.glasgow.jagora.impl.StockExchangeDecorator;
 
 public class DemoA {
 	public static void main (String [] args){
-		StockExchange stockExchange = new DefaultStockExchange(new DefaultWorld());
+		DefaultStockExchange stockExchange = new DefaultStockExchange(new DefaultWorld());
 		Stock lemons = new DefaultStock("lemons");
 		
 		

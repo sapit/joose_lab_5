@@ -11,6 +11,7 @@ import uk.ac.glasgow.jagora.Stock;
 import uk.ac.glasgow.jagora.StockExchange;
 import uk.ac.glasgow.jagora.TradeException;
 import uk.ac.glasgow.jagora.Trader;
+import uk.ac.glasgow.jagora.impl.TraderFactory;
 
 public class StubTrader implements Trader {
 	
@@ -18,11 +19,11 @@ public class StubTrader implements Trader {
 	private String name;
 	private Map<Stock,Integer> inventory;
 	
-	public static final Trader seller = new 
-		StubTrader("seller", 0.0,createSellerInventory());
+	
+	public static final Trader seller = new StubTrader("seller", 0.0,createSellerInventory());
 		
-	public static final Trader buyer = new
-		StubTrader("buyer", 10.0, new HashMap<Stock,Integer>());
+	public static final Trader buyer =new StubTrader("buyer", 10.0,createSellerInventory());
+
 
 
 	public StubTrader(String name, Double cash, Map<Stock, Integer> inventory) {

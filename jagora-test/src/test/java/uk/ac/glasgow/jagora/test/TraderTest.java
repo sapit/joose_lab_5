@@ -1,6 +1,7 @@
 package uk.ac.glasgow.jagora.test;
 
 import static org.junit.Assert.assertEquals;
+import static uk.ac.glasgow.jagora.test.stub.StubStock.lemons;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,6 +12,7 @@ import org.junit.Test;
 import uk.ac.glasgow.jagora.Stock;
 import uk.ac.glasgow.jagora.TradeException;
 import uk.ac.glasgow.jagora.Trader;
+import uk.ac.glasgow.jagora.impl.TraderFactory;
 
 /**
  * Defines tests for the common behaviour of implementations of the Trader
@@ -23,12 +25,15 @@ import uk.ac.glasgow.jagora.Trader;
 @Ignore
 public abstract class TraderTest {
 
-	protected Stock stock;
-	protected Integer quantity;
-	protected Double cash;
-	protected String name;
+	protected Stock stock = lemons;
+	protected Integer quantity =10;
+	protected Double cash=0.0;
+	protected String name="seller";
 	
-	protected Trader trader;
+	public static TraderFactory factory = new TraderFactory();
+	
+	public Trader trader = factory.createTrader("default", "seller", 0.0, lemons, 10,
+			null, null, null);;
 
 	@Test
 	public void testGetName (){

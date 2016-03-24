@@ -1,0 +1,5 @@
+package uk.ac.glasgow.jagora.impl;
+
+public class StockExchangeDecorator extends DefaultStockExchange {
+
+}

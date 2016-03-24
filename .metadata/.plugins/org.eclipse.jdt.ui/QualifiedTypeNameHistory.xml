@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="uk.ac.glasgow.jagora.Trader"/>
+<fullyQualifiedTypeName name="uk.ac.glasgow.jagora.Stock"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="uk.ac.glasgow.jagora.impl.TraderFactory"/>
+</qualifiedTypeNameHistroy>
